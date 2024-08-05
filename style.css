@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(#1b1b1b 60%, #1089b9 100%);
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 65px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+nav .brand {
+    font-size: x-large;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color:  #06aef0;
+    font-weight: 500;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+nav .menu li {
+    list-style: none;
+    padding: 10px;
+}
+
+.menu img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+nav .menu li:hover {
+    border-top: 1px solid  #06aef0;
+    border-bottom: 1px solid  #06aef0;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner video {
+    position: absolute;
+    object-fit: cover;
+    width: 70%;
+    height: 80vh;
+    border-radius: 20%;
+    box-shadow: 0 7px 50px 0 rgb(255, 255, 255);
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-top: 50px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.banner h1 {
+    font-size: 40px;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+}
+
+.biodata {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    padding: 0 15px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 50px;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.icon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.icon a:hover {
+    background-color:  #06aef0;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 30px 0;
+}
+
+.footernav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul  li a:hover{
+    opacity: 1;
+}
+
+.footerbottom {
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
+
+.amerika {
+    width: 35%;
+    height: 100vh;
+    margin: 50px;
+    margin-left: 450px;
+    border-radius: 10%;
+    box-shadow: 0 7px 50px 0 rgb(31, 205, 218);
+}
+
+.judul {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 1.3em;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.deskrip {
+    padding: 0 70px;
+    margin-top: 30px;
+}
+
+.tabel {
+    padding: 0 450px;
+}
+
+.tabel th, .tabel td{
+    padding-top: 20px;
+}
+
+.trailer {
+    margin-left: 250px;
+}
+
+#wrapper {
+    margin: 150px auto;
+    width: 90%;
+}
+
+.text-box h1 {
+    font-size: 42px;
+}
+
+.text-box p {
+    font-size: 16px;
+}
